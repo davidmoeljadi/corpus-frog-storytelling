@@ -1,6 +1,0 @@
-import codecs
-
-f = codecs.open('writing_AM.txt', encoding='utf-8', mode='r')
-
-for line in f.readlines():
-    items = line.strip()
